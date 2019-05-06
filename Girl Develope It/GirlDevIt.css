@@ -1,0 +1,30 @@
+/*
+* Erin Kelleher
+* 5/8/19
+* Girl Develope It
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+/* the light pink color background */
+body { background-color: lightpink}
+/* centering the logo and extending the color next to the logo*/
+header { text-align: center; background-color: #ff6666; }
+/* changing the font of "About" */
+h1 { font-family: cursive; }
+/* changing the About paragragh and lists font */
+main { font-family: sans-serif; }
+/* making the images go to the right of the lists */
+#Image2 { float: right; }
+#Image1 { float: right; }
+/* changing the font of "Our Locations" */
+h2 { font-family: cursive; }
+/* changing the font of the information under the line */
+footer { font-family: serif; }
+/* making when hovering over the links it makes it fushia and bigger */
+a:hover, a:focus { color:fuchsia; font-size: 150%; }
